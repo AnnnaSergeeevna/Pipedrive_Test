@@ -1,0 +1,67 @@
+body {
+    background: white;
+    color: rgb(83, 83, 83);
+    font-family: sans-serif;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0 5px 0 0;
+}
+
+.group {
+    border: 1px solid #ccc;
+    min-width: 300px;
+    border-top: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 0 0 20px;
+}
+
+.group input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    margin: 5px 10px 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    margin: 5px 10px 5px 0px;
+    width: 100%;
+    height: 5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select {
+
+    padding: 10px 10px 10px 40px;
+    margin: 5px 10px 5px 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submitBttn {
+    display: inline-block;
+    margin: 10px 0px 10px 20px;
+    background-color: rgb(21, 102, 21);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}

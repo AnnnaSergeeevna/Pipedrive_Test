@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pipedrive Deal Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h4>Create a New Deal</h4>
+    <form id="deal-form" class="form">
+        <div class="group">
+            <h2>Client details</h2>
+
+            <input type="text" placeholder="First name" id="first-name" name="first-name" required><br>
+
+            <input type="text" placeholder="Last name" id="last-name" name="last-name" required><br>
+
+            <input type="phone" placeholder="Phone" id="phone" name="phone" required><br>
+
+            <input type="email" placeholder="Email (optional)" id="email" name="email"><br>
+        </div>
+        <div class="group">
+            <h2>Job details</h2>
+            <div>
+                <select id="area" class="select" name="area" placeholder="Area">
+                    <option value="option1">area 1</option>
+                    <option value="option2">area 2</option>
+                </select>
+                <select id="area" name="area" placeholder="Area">
+                    <option value="option1">area 1</option>
+                    <option value="option2">area 2</option>
+                </select>
+            </div>
+            <textarea placeholder="Job description (optional)" id="job-description" name="job-description">
+    </textarea>
+        </div>
+        <div class="group">
+            <h2>Service location</h2>
+
+            <input type="text" placeholder="Address" id="address" name="address" required><br>
+
+            <input type="text" placeholder="City" id="city" name="city" required><br>
+
+            <input type="text" placeholder="State" id="state" name="state" required><br>
+
+            <input type="number" placeholder="Zip code" id="zip-code" name="zip-code" required><br>
+
+            <select id="area" name="area" placeholder="Area">
+                <option value="option1">area 1</option>
+                <option value="option2">area 2</option>
+            </select>
+        </div>
+
+        <div class="group">
+            <h2>Seheduled</h2>
+
+            <input type="date" placeholder="Test select" id="start-date" name="start-date" required><br>
+
+            <input type="time" placeholder="Start time" id="start-time" name="start-time" required><br>
+
+            <input type="time" placeholder="End time" id="end-time" name="end-time" required><br>
+
+            <select id="test-select" placeholder="Test select" name="test-select">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+            </select><br>
+        </div>
+        <div>
+            <button type="button" id="submitBtn" class="submitBttn">Save Deal</button>
+        </div>
+    </form>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
